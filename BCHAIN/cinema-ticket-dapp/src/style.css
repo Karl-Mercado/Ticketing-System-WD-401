@@ -1,0 +1,71 @@
+
+
+/* Cinema-themed styles */
+body {
+    display: flex; /* Set body to flex container */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/top-view-cinema-tickets_23-2148470189.jpg"); /* Replace "background-image.jpg" with your actual image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+
+}
+
+h1{
+    font-weight: 600;
+    color: white;
+}
+
+.container {
+    padding: 30px;
+}
+
+.card {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #777;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #222;
+    border-bottom: 1px solid #777;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.form-control {
+    background-color: #444;
+    border-color: #444;
+    color: #fff;
+}
+
+/* Custom classes */
+.mb-5-custom {
+    margin-bottom: 5rem;
+}
+
+.mt-4-custom {
+    margin-top: 4rem;
+}
+
+.text-center-custom {
+    text-align: center;
+}

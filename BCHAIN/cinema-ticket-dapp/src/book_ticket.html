@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket - Cinema Ticket Booking DApp</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Book Ticket</h1>
+
+        <!-- List of User's Tickets -->
+        <div id="userTickets" class="mb-4">
+            <h2>Your Tickets</h2>
+            <ul id="ticketsList" class="list-group">
+                <!-- User's tickets will be dynamically added here -->
+            </ul>
+        </div>
+
+        <!-- Book Ticket Section -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Book Ticket</h2>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="ticketIndex">Ticket Index:</label>
+                    <input type="number" id="ticketIndex" class="form-control">
+                </div>
+                <button onclick="bookTicket()" class="btn btn-primary">Book Ticket</button>
+            </div>
+        </div>
+
+        <!-- Link back to Create Ticket page -->
+        <div class="mt-4 text-center">
+            <a href="create_ticket.html" class="btn btn-secondary">Go to Create Ticket</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
